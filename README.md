@@ -1,70 +1,45 @@
-<p align="center">
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1610223632623/lKUGuX_QX.gif" alt="gatsby.gif" />
-</p>
+<h1 align="center">Interior Consultant</h1>
 
-<br />
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-<h1 align="center"><strong>Gatsby Template Pro</strong></h1>
+<div align="center">
+  <h3>
+    <a href="https://interior-consultant69.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/solutions/88uBaIufp2fh6N7zORCZ">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-<br />
-<br />
+<br>
 
-# <strong>Features</strong>
+<div align="center">
+<img src="" alt="screenshot" align="center"/>
+</div>
 
--   #### [Responsive Images][responsive images]
--   #### [Markdown & MDX Support][markdown & mdx support]
--   #### [Generate a Manifest File][generate a manifest file]
--   #### [Enable Offline Functionality][enable offline functionality]
--   #### [Page Meta Tags with React Helmet][page meta tags with react helmet]
--   #### [SASS support for styling][sass support for styling]
--   #### [Automatic Sitemap][automatic sitemap]
--   #### [Gatsby source plugin for sourcing data from filesystem][gatsby source plugin for sourcing data from filesystem]
--   #### [Font Awesome Icons][font awesome icons]
+<br>
 
-<br />
-<br />
+## Built With
 
-# <strong>🚀 Quick Start</strong>
+-   [Gatsby](https://www.gatsbyjs.com/)
+-   [React](https://reactjs.org/)
+-   [Bootstrap](https://getbootstrap.com/)
 
-### 1. Hit the <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1610228403176/kGm5l6Bcv.png" width="150"/> button or **Clone** the repo
+## Features
 
-<br />
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
-### 2. Update & Install dependencies
+## Contact
 
-> ### `npm run setup`
-
-<br />
-
-### 3. Start dev server at [**_localhost:8000_**][devserver]
-
-> ### `npm start`
-
-<br />
-<br />
-
----
-
-### <strong>After production is ready</strong>
-
-### 1. Create a production build (**_public_** directory)
-
-> ### `npm run build`
-
-<br />
-
-### 2. View the production site locally at [**_localhost:9000_**][prodserver]
-
-> ### `npm run serve`
-
-[responsive images]: https://www.gatsbyjs.com/plugins/gatsby-image/?=gatsby-image
-[markdown & mdx support]: https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx/?=gatsby-plugin-mdx
-[generate a manifest file]: https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
-[enable offline functionality]: https://www.gatsbyjs.com/plugins/gatsby-plugin-offline/?=gatsby-plugin-offline
-[page meta tags with react helmet]: https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
-[sass support for styling]: https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/?=gatsby-plugin-sass
-[automatic sitemap]: https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/?=gatsby-plugin-sitemap
-[gatsby source plugin for sourcing data from filesystem]: https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/?=gatsby-source-filesystem
-[font awesome icons]: https://fontawesome.com/
-[devserver]: http://localhost:8000/
-[prodserver]: http://localhost:9000/
+-   GitHub: [rahi-khan](https://github.com/rahi-khan)
+-   LinkedIn: [Rahi Khan](https://www.linkedin.com/in/rahikhan/)
+-   Twitter [@rahikhan_dev](https://twitter.com/rahikhan_dev)
