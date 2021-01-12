@@ -9,7 +9,7 @@
         "react",
         "devcallenges",
         "challenge",
-        "10daysofcode"
+        "100daysofcode"
     ],
     "scripts": {
         "setup": "ncu -u -x node-sass && npm i",
