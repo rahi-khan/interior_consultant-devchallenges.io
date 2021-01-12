@@ -22,11 +22,10 @@ const UserCard = () => {
             style={{
                 backgroundColor: "#181719",
                 boxShadow: "0px 2px 8px 0px rgba(0, 0, 0, 0.8)",
-                width: "20rem",
-                right: "2rem",
-                bottom: "1.5rem",
+                width: "70%",
+                marginTop: "-5rem",
+                marginRight: "2rem",
             }}
-            className="position-absolute"
         >
             <Card.Header className="d-flex align-items-center">
                 <Img
@@ -42,7 +41,7 @@ const UserCard = () => {
             <Card.Body>
                 <Card.Title className="mb-0">
                     <h5 style={{ fontFamily: "Lora, sans-serif", fontWeight: "700" }}>
-                        Designed in 2020 by <br /> Aliza Webber
+                        Designed in 2020 by Aliza Webber
                     </h5>
                 </Card.Title>
             </Card.Body>
