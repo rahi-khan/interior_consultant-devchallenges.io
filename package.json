@@ -1,11 +1,15 @@
 {
-    "name": "gatsby_template_pro",
+    "name": "interior-consultant",
     "version": "1.0.0",
     "private": true,
-    "description": "gatsby_template_pro",
+    "description": "interior-consultant",
     "author": "Rahi Khan",
     "keywords": [
-        "gatsby"
+        "gatsby",
+        "react",
+        "devcallenges",
+        "challenge",
+        "10daysofcode"
     ],
     "scripts": {
         "setup": "ncu -u -x node-sass && npm i",
@@ -37,12 +41,13 @@
         "gatsby-transformer-sharp": "^2.10.0",
         "node-sass": "^4.14.1",
         "react": "^17.0.1",
+        "react-bootstrap": "^1.4.3",
         "react-dom": "^17.0.1",
         "react-helmet": "^6.1.0",
         "rfs": "^9.0.3"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/rahi-khan/Gatsby_Template_Pro"
+        "url": "https://github.com/rahi-khan/interior_consultant-devchallenges.io"
     }
 }

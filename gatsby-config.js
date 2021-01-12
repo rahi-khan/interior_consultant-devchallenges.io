@@ -3,10 +3,12 @@
 module.exports = {
     //! Site Meta Data
     siteMetadata: {
-        title: "Gatsby Template Pro",
+        title: "Modern interior",
         description: `A starter template for Gatsby.js projects`,
+        content:
+            `A full-Service residential & <br /> commercial interior design and staging company offering professional organizing & eco-services.`,
         author: `Rahi Khan`,
-        siteUrl: `https://gatsby-template-pro.netlify.app/`,
+        siteUrl: `https://interior-consultant69.netlify.app/`,
     },
 
     //! External Gatsby Plugins
@@ -47,15 +49,15 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Gatsby Template Pro`,
-                short_name: `Gatsby Template Pro`,
-                description: `A starter template for Gatsby.js projects`,
+                name: `Modern interior`,
+                short_name: `Modern interior`,
+                description: `Modern interior`,
                 lang: `en`,
                 start_url: `/`,
                 background_color: `#6b37bf`,
                 theme_color: `#6b37bf`,
                 display: `standalone`,
-                icon: `./src/images/icon.png`,
+                icon: `./src/images/devchallenges.png`,
             },
         },
         "gatsby-plugin-offline",

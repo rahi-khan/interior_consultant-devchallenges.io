@@ -1,6 +1,6 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { footer } from "./footer.module.scss";
+import { Row, Col } from "react-bootstrap";
 
 const Footer = () => {
     const data = useStaticQuery(graphql`
@@ -14,12 +14,11 @@ const Footer = () => {
     `);
 
     return (
-        <div className={footer}>
-            <h4>
-                Created by{" "}
-                <a href="https://twitter.com/rahikhan_dev">{data.site.siteMetadata.author}</a>
-            </h4>
-        </div>
+        <Row className="py-3 border border-success">
+            <Col>
+                <h6 className="text-center">{data.site.siteMetadata.author} @ DevChallenges.io</h6>
+            </Col>
+        </Row>
     );
 };
 
