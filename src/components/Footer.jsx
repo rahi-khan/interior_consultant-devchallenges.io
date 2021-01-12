@@ -14,7 +14,7 @@ const Footer = () => {
     `);
 
     return (
-        <Row className="py-3">
+        <Row className="py-3 border-top" style={{ borderWidth: "1rem" }}>
             <Col>
                 <h6
                     className="mb-0 text-center"

@@ -16,7 +16,7 @@ const Main = () => {
 
             file(relativePath: { eq: "photo1.png" }) {
                 childImageSharp {
-                    fixed(width: 500) {
+                    fixed(width: 450) {
                         ...GatsbyImageSharpFixed
                     }
                 }
@@ -25,7 +25,7 @@ const Main = () => {
     `);
 
     return (
-        <Row className="pt-5 flex-grow-1">
+        <Row className="py-5 flex-grow-1 text-center text-md-left">
             <Col className="pb-5">
                 <h1
                     className="mb-4 display-4"
@@ -52,7 +52,7 @@ const Main = () => {
                 </Link>
             </Col>
 
-            <Col className="d-flex flex-column align-items-end">
+            <Col className="d-flex flex-column align-items-center align-items-md-end">
                 <Img fixed={data.file.childImageSharp.fixed} className="img-fluid float-md-right" />
 
                 <UserCard />
