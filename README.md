@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/88uBaIufp2fh6N7zORCZ">
+    <a href="https://devchallenges.io/solutions/kUFLbjdHQNdvnaxTqxgg">
       Solution
     </a>
     <span> | </span>
@@ -23,7 +23,7 @@
 <br>
 
 <div align="center">
-<img src="" alt="screenshot" align="center"/>
+<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1610493641203/tB1k6bkgs.png" alt="screenshot" align="center"/>
 </div>
 
 <br>
