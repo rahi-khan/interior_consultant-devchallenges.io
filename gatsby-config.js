@@ -16,9 +16,29 @@ module.exports = {
         "gatsby-plugin-sharp",
         "gatsby-plugin-react-helmet",
         "gatsby-plugin-sitemap",
-        "gatsby-plugin-mdx",
         "gatsby-transformer-sharp",
         `gatsby-transformer-json`,
+        {
+            resolve: `gatsby-plugin-google-fonts-v2`,
+            options: {
+                fonts: [
+                    {
+                        family: "Crimson Pro",
+                        variable: true,
+                        weights: ["200"],
+                    },
+                    {
+                        family: "Montserrat",
+                        weights: ["300..700"],
+                    },
+                    {
+                        family: "Lora",
+                        variable: true,
+                        weights: ["400, 700"],
+                    },
+                ],
+            },
+        },
         {
             resolve: "gatsby-source-filesystem",
             options: {
