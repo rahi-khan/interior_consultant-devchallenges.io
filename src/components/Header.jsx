@@ -5,7 +5,7 @@ import { Row, Col, Navbar, Nav } from "react-bootstrap";
 const Header = () => {
     return (
         <Row className="py-2 border border-primary">
-            <Col>
+            <Col className="px-0">
                 <Navbar variant="dark" expand="md">
                     <Navbar.Brand as={Link} to="/" className="px-3 border">
                         This Interior

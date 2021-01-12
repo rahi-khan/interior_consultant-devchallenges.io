@@ -16,7 +16,7 @@ const Footer = () => {
     return (
         <Row className="py-3 border border-success">
             <Col>
-                <h6 className="text-center">{data.site.siteMetadata.author} @ DevChallenges.io</h6>
+                <h6 className="mb-0 text-center">{data.site.siteMetadata.author} @ DevChallenges.io</h6>
             </Col>
         </Row>
     );

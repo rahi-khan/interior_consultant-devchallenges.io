@@ -5,8 +5,7 @@ module.exports = {
     siteMetadata: {
         title: "Modern interior",
         description: `A starter template for Gatsby.js projects`,
-        content:
-            `A full-Service residential & <br /> commercial interior design and staging company offering professional organizing & eco-services.`,
+        content: `A full-Service residential & <br /> commercial interior design and staging company offering professional organizing & eco-services.`,
         author: `Rahi Khan`,
         siteUrl: `https://interior-consultant69.netlify.app/`,
     },
@@ -35,14 +34,6 @@ module.exports = {
                 path: "./src/pages/",
             },
             __key: "pages",
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: `data`,
-                path: `./src/data/`,
-                ignore: [`**/\.*`], //! ignore files starting with a dot
-            },
         },
 
         //! "Offline-plugin" will always be after "Manifest-plugin"
