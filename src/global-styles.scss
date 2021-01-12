@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/mixins/_breakpoints.scss";
+@import "~rfs/scss";
+
+body {
+    background-color: #181719;
+}
+
+.navbar-collapse {
+    transition: all 0.3s ease-in-out;
+}
+
+@include media-breakpoint-down(sm) {
+    .navbar-nav {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5rem;
+
+        * {
+            @include font-size(2.3rem);
+            margin-bottom: 2rem;
+        }
+    }
+}

@@ -26,7 +26,7 @@ const Main = () => {
 
     return (
         <Row className="pt-5 flex-grow-1">
-            <Col md={6}>
+            <Col md={6} className="pb-5">
                 <h1 className="mb-4 display-4" style={{ fontFamily: "Lora, serif", fontWeight: "400" }}>
                     {data.site.siteMetadata.title}
                 </h1>

@@ -23,13 +23,13 @@ const Header = () => {
                             className="ml-auto"
                             style={{ fontFamily: "Montserrat, serif", fontWeight: "700" }}
                         >
-                            <Nav.Link as={Link} href="/" className="mr-5">
+                            <Nav.Link as={Link} href="/">
                                 Home
                             </Nav.Link>
-                            <Nav.Link as={Link} href="/" className="mr-5">
+                            <Nav.Link as={Link} href="/">
                                 Collection
                             </Nav.Link>
-                            <Nav.Link as={Link} href="/" className="mr-5">
+                            <Nav.Link as={Link} href="/">
                                 About
                             </Nav.Link>
                             <Nav.Link as={Link} href="/">

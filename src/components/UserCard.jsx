@@ -19,7 +19,13 @@ const UserCard = () => {
     return (
         <Card
             text="white"
-            style={{ backgroundColor: "#181719", width: "20rem", right: "2rem", bottom: "1.5rem" }}
+            style={{
+                backgroundColor: "#181719",
+                boxShadow: "0px 2px 8px 0px rgba(0, 0, 0, 0.8)",
+                width: "20rem",
+                right: "2rem",
+                bottom: "1.5rem",
+            }}
             className="position-absolute"
         >
             <Card.Header className="d-flex align-items-center">
